@@ -2,8 +2,10 @@
   font-family: Roboto, sans-serif;
 }
 .header{
-display: flex;
-justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 .main-section{
   margin: auto;
@@ -12,11 +14,9 @@ justify-content: space-between;
 .wrapper{
   margin:auto;
   width: 80%;
-
 }
 .logo,.menu{
   display: inline-block;
-
 }
 .logo{
   margin-right: 63%;
