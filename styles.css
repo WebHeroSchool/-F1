@@ -2,6 +2,7 @@
   font-family: Roboto, sans-serif;
 }
 .header{
+  padding: 40px 0;
   width: 80%;
   margin: auto;
   display: flex;
@@ -15,13 +16,15 @@
   margin:auto;
   width: 80%;
 }
-.logo,.menu{
+.logo, .menu{
   display: inline-block;
 }
-.logo{
-  margin-right: 63%;
-  padding: 40px 0;
-}
+ .logo{
+  
+  width: 190px;
+  height: 35px;
+  background: url('img/logo.svg');
+  }
 .menu{
   display: flex;
   align-items: center;
