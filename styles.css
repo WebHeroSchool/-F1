@@ -75,7 +75,7 @@ background: url('img/Group 15.svg');
 }
 .main__title{
   margin-bottom: 0 0 40px 0;
-  font: bold 66px/87px PT_Serif,arial,helvetica,sans-serif;
+  font: bold 66px/87px pt serif,arial,helvetica,sans-serif;
 }
 .main{
   padding: 0 63% 181px 0;
@@ -89,10 +89,10 @@ background: url('img/Group 15.svg');
 }
 .main__button{
   display: inline-block;
-  font: 14px/16px Roboto,arial,helvetica,sans-serif;
+  font: 18px/21px Roboto,arial,helvetica,sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 16px;
+  padding: 18px 21px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
