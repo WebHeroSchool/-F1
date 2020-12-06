@@ -103,3 +103,29 @@ background: url('img/Group 15.svg');
 .main__title-text_highlight{
   background: #ECF3FF;
 }
+@media (min_widht: 1920px) {
+}
+@media (max-width:768){
+  .menu{
+    display: none;
+  }
+  .header{
+    margin-bottom: 28px;
+  }
+  .main{
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+  .main__title{
+    margin-bottom: 25px;
+    font: 500 16px/19px pt serif, arial,helvetica, sans-serif;
+  }
+  .main__subtitle{
+    margin-bottom: 25px;
+    font: 500 16px/19px Roboto, arial,helvetica, sans-serif;
+  }
+  .main__button{
+    font: 500 14px/16px Roboto, arial,helvetica, sans-serif;
+  }
+}
