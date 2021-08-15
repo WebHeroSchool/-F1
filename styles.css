@@ -103,29 +103,48 @@ background: url('img/Group 15.svg');
 .main__title-text_highlight{
   background: #ECF3FF;
 }
-@media (min_widht: 1920px) {
-}
-@media (max-width:768){
+/*@media (min_widht: 1920px) {*/
+/*}*/
+@media (max-width:768px){
   .menu{
-    display: none;
+    display:none;
   }
   .header{
     margin-bottom: 28px;
   }
   .main{
+    text-align: center;
     padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
   }
   .main__title{
-    margin-bottom: 25px;
-    font: 500 16px/19px pt serif, arial,helvetica, sans-serif;
+    margin-bottom: 44px;
+    font: bold 30px/39px pt serif, arial, helvetica, sans-serif;
   }
   .main__subtitle{
     margin-bottom: 25px;
-    font: 500 16px/19px Roboto, arial,helvetica, sans-serif;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
   .main__button{
-    font: 500 14px/16px Roboto, arial,helvetica, sans-serif;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+  .logo{
+    position: absolute;
+    width: 36px;
+    height: 35px;
+    left: 24px;
+    top: 24px;
+    background: url('img/Group 15.1.svg');
+  }
+  .menu_burger{
+    position:absolute;
+    width: 25px;
+    height: 17px;
+    left: 326px;
+    top: 32px;
+    display: block;
+    margin-right: 24px;
+    background: url('img/Group 16.svg');
   }
 }
